@@ -4,3 +4,11 @@ import { ticTacToeBtn, rockPaperScissorBtn, etchASketchBtn } from "./elementSele
 ticTacToeBtn().addEventListener("click", () => {
     alert("Hello");
 })
+
+rockPaperScissorBtn().addEventListener("click", () => {
+    alert("Hello");
+})
+
+etchASketchBtn().addEventListener("click", () => {
+    alert("Hello");
+})
