@@ -15,7 +15,6 @@ export function showHome() {
 // Selects tictactoe game
 export function tictactoeDiv() {
     const tictactoe = document.querySelector("#TicTacToe");
-
     return tictactoe;
 }
 
@@ -27,6 +26,12 @@ export function displayTicTacToe() {
 // Hides tictactoe
 export function hideTicTacToe() {
     tictactoeDiv().style.display = "none";
+}
+
+// Handles tictactoe close button
+export function closeTicTacToe() {
+    const closeBtn = document.querySelector("#ticTacToeClose");
+    return closeBtn;
 }
 
 // Selects Rock paper scissors game

@@ -1,8 +1,16 @@
 import "./styles.css";
-import { ticTacToeBtn, rockPaperScissorBtn, etchASketchBtn, displayTicTacToe} from "./elementSelect"; // Import relevant buttons
+import { ticTacToeBtn, rockPaperScissorBtn, etchASketchBtn, displayTicTacToe, hideHome, showHome,
+    hideTicTacToe, closeTicTacToe } from "./elementSelect"; // Import relevant buttons
 
 ticTacToeBtn().addEventListener("click", () => {
-    displayTicTacToe();
+    hideHome(); // Hides home page
+    displayTicTacToe(); // Displays tictactoe game
+})
+
+// TicTacToe close button
+closeTicTacToe().addEventListener("click", () => {
+    showHome();
+    hideTicTacToe(); // Hides game
 })
 
 rockPaperScissorBtn().addEventListener("click", () => {
