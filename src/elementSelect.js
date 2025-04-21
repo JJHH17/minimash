@@ -35,9 +35,18 @@ export function hideEtchASketch() {
 
 // Tictactoe Button
 export function ticTacToeBtn() {
-    const ticTacToeButton = document.querySelector("")
+    const ticTacToeButton = document.querySelector("#tictactoebtn");
+    return ticTacToeButton;
 }
 
 // Rock paper scissors button
+export function rockPaperScissorBtn() {
+    const rockPaperScissorBtn = document.querySelector("#rockpaperscissorbtn");
+    return rockPaperScissorBtn;
+}
 
 // Etch-a-sketch button
+export function etchASketchBtn() {
+    const etchASketchButton = document.querySelector("#etch-a-sketchbtn");
+    return etchASketchButton;
+}
