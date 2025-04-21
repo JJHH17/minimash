@@ -2,7 +2,7 @@
 
 // Selects tictactoe game
 export function tictactoeDiv() {
-    const tictactoe = document.selectElement("#TicTacToe");
+    const tictactoe = document.querySelector("#TicTacToe");
     return tictactoe;
 }
 
@@ -13,7 +13,7 @@ export function hideTicTacToe() {
 
 // Selects Rock paper scissors game
 export function rockPaperScissorsDiv() {
-    const rockPaperScissors = document.selectElement("#RockPaperScissors");
+    const rockPaperScissors = document.querySelector("#RockPaperScissors");
     return rockPaperScissors;
 }
 
@@ -24,7 +24,7 @@ export function hideRockPaperScissors() {
 
 // Selects etch a sketch game
 export function etchASketchDiv() {
-    const etchASketch = document.selectElement("#etch-a-sketch");
+    const etchASketch = document.querySelector("#etch-a-sketch");
     return etchASketch;
 }
 
@@ -32,3 +32,12 @@ export function etchASketchDiv() {
 export function hideEtchASketch() {
     etchASketchDiv().style.display = "none";
 }
+
+// Tictactoe Button
+export function ticTacToeBtn() {
+    const ticTacToeButton = document.querySelector("")
+}
+
+// Rock paper scissors button
+
+// Etch-a-sketch button
