@@ -44,3 +44,7 @@
 #etch-a-sketchbtn, #etch-a-sketchimg {
     background-color: #8a30ff;
 }
+
+#TicTacToe, #RockPaperScissors, #etch-a-sketch {
+    display: none;
+}
