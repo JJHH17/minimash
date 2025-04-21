@@ -16,7 +16,14 @@
     justify-content: space-evenly;
 }
 
-#tictactoebtn, #tictactoeimg, #rockpaperscissorbtn, #rockpaperscissorsimg {
+#tictactoebtn, #tictactoeimg {
     background-color: #38d9c3;
 }
 
+#rockpaperscissorbtn, #rockpaperscissorsimg {
+    background-color: #edb418; 
+}
+
+#etch-a-sketchbtn, #etch-a-sketchimg {
+    background-color: #8a30ff;
+}
