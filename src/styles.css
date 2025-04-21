@@ -16,6 +16,7 @@
     justify-content: space-evenly;
 }
 
-#tictactoebtn, #tictactoeimg {
+#tictactoebtn, #tictactoeimg, #rockpaperscissorbtn, #rockpaperscissorsimg {
     background-color: #38d9c3;
 }
+
