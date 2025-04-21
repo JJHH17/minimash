@@ -3,7 +3,13 @@
 // Selects tictactoe game
 export function tictactoeDiv() {
     const tictactoe = document.querySelector("#TicTacToe");
+
     return tictactoe;
+}
+
+// Displays tictactoe game
+export function displayTicTacToe() {
+    tictactoeDiv().style.display = "block";
 }
 
 // Hides tictactoe

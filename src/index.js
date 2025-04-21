@@ -1,8 +1,8 @@
 import "./styles.css";
-import { ticTacToeBtn, rockPaperScissorBtn, etchASketchBtn } from "./elementSelect"; // Import relevant buttons
+import { ticTacToeBtn, rockPaperScissorBtn, etchASketchBtn, displayTicTacToe} from "./elementSelect"; // Import relevant buttons
 
 ticTacToeBtn().addEventListener("click", () => {
-    alert("Hello");
+    displayTicTacToe();
 })
 
 rockPaperScissorBtn().addEventListener("click", () => {
