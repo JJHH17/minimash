@@ -48,3 +48,35 @@
 #TicTacToe, #RockPaperScissors, #etch-a-sketch {
     display: none;
 }
+
+#ticTacToeTitle, #player1TicTacToe, #player2TicTacToe, #ticTacToeReset {
+    color: white;
+    text-align: center;
+}
+
+#TicTacToeBoardDiv {
+    background-color: white;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    aspect-ratio: 1 / 1;
+    gap: 5px;
+    width: 90vmin;
+    max-width: 400px;
+    margin: auto;
+}
+
+#TicTacToeBoardDiv > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+#ticTacToeTitle {
+    font-size: xx-large;
+}
+
+#player1TicTacToe, #player2TicTacToe {
+    font-size: large;
+}

@@ -1,5 +1,17 @@
 // Files responsible for selecting elements on page/DOM
 
+// hides home page 
+export function hideHome() {
+    const home = document.querySelector("#home");
+    home.style.display = "none";
+}
+
+// Displays home page
+export function showHome() {
+    const home = document.querySelector("#home");
+    home.style.display = "grid";
+}
+
 // Selects tictactoe game
 export function tictactoeDiv() {
     const tictactoe = document.querySelector("#TicTacToe");
